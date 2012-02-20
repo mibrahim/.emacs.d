@@ -1,0 +1,4 @@
+This is my .emacs and .emacs.d directory and files. I changed the clarity theme's background to nil, which allows emacs to have a transparent background when used through the terminal.
+
+The .emacs file will load the theme automatically. The php, actionscript and javascript modes are added there as well.
+
