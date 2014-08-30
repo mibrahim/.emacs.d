@@ -63,6 +63,7 @@
 ;;(set-default-font "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1")
 (setq auto-mode-alist (cons '("\\.as$" . actionscript-mode) auto-mode-alist))
 (global-set-key [f12] 'compile)
+(add-to-list 'auto-mode-alist '("\\.cu\\'" . c-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
 ;;(autoload 'javascript-mode "javascript" nil t)
 ;;(add-hook 'window-configuration-change-hook
