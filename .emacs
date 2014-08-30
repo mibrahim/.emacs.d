@@ -58,7 +58,7 @@
 ;;(color-theme-lethe)
 ;(global-font-lock-mode t)
 (require 'actionscript-mode)
-(require 'php-mode)
+;(require 'php-mode)
 (set-default-font "Monospace-8")
 ;;(set-default-font "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1")
 (setq auto-mode-alist (cons '("\\.as$" . actionscript-mode) auto-mode-alist))
